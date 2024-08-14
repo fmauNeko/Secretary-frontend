@@ -24,7 +24,9 @@
         <div class="flex items-center justify-between mt-6">
           <span class="w-1/5 border-b border-base-content lg:w-1/4"></span>
 
-          <span class="text-xs text-center text-base-content uppercase">or login with email</span>
+          <span class="text-xs text-center text-base-content uppercase"
+            >or login with email</span
+          >
 
           <span class="w-1/5 border-b border-base-content lg:w-1/4"></span>
         </div>
@@ -47,7 +49,9 @@
             <label class="form-control w-full mt-4">
               <div class="label">
                 <span class="label-text">Password</span>
-                <a href="#" class="label-text-alt link link-accent link-hover">Forgot password?</a>
+                <a href="#" class="label-text-alt link link-accent link-hover"
+                  >Forgot password?</a
+                >
               </div>
               <input
                 type="password"
@@ -64,7 +68,10 @@
           <div class="flex items-center justify-between mt-6">
             <span class="w-1/5 border-b border-base-content lg:w-1/4"></span>
 
-            <a href="#" class="link link-accent link-hover uppercase text-xs text-center">
+            <a
+              href="#"
+              class="link link-accent link-hover uppercase text-xs text-center"
+            >
               or sign up
             </a>
 

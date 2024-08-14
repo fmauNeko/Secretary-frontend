@@ -37,6 +37,8 @@
     "chromedriver": "^126.0.2",
     "daisyui": "^4.12.10",
     "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-vue": "^9.23.0",
     "geckodriver": "^4.4.1",
     "jsdom": "^24.1.0",
