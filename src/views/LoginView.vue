@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import bgImage from "@/assets/images/login-bg.jpg";
 import { useAuthStore } from "@/stores/auth";
 import { toTypedSchema } from "@vee-validate/zod";
 import { HTTPError } from "ky";
@@ -42,7 +43,7 @@ const onSubmit = handleSubmit(async (values, actions) => {
   <div class="flex justify-center h-screen">
     <div
       class="hidden bg-cover lg:block lg:w-2/3"
-      style="background-image: url(https://picsum.photos/1920/1080)"
+      :style="{ backgroundImage: `url(${bgImage})` }"
     />
 
     <div class="flex items-center w-full max-w-md px-6 mx-auto lg:w-2/6">

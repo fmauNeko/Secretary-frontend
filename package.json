@@ -60,6 +60,10 @@
     "vue-tsc": "^2.0.21"
   },
   "trustedDependencies": [
-    "@nightwatch/nightwatch-inspector"
+    "@nightwatch/nightwatch-inspector",
+    "chromedriver",
+    "esbuild",
+    "geckodriver",
+    "vue-demi"
   ]
 }
